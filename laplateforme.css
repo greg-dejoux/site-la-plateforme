@@ -1,0 +1,142 @@
+*{
+   font-family: 'Roboto Slab', serif;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   flex-direction: row;
+   background-color: #F9F9FE;
+}
+
+.logo{
+   display: flex;
+   justify-content: left;
+   background-color: #F9F9FE;
+   width: 30%;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #F9F9FE;
+
+}
+
+li {
+   float: left;
+}
+
+li a {
+   display: block;
+   color: grey;
+   text-align: right;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+   background-color: #F4F4EC;
+}
+
+.flex1 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   background: #2E72AE;
+}
+
+.flex1 .bloc_one {
+   color: #F4F4EC;
+   text-align: left;
+   font-size: 25px;
+   vertical-align: baseline;
+
+}
+
+.paragraphe{
+   text-align: center;
+   color: white;
+}
+
+article{
+   font-size: 14px;
+   font-weight: lighter;
+}
+
+h1{
+   text-align: center;
+   color: #2E72AE;
+   font-size: 40px;
+   font-weight: bold;
+}
+
+h2{
+   text-align: center;
+   color: #2E72AE;
+   font-size: 22px;
+}
+.flex2{
+   display: flex;
+   justify-content: space-around;
+   color: #2E72AE;
+   font-size: 18px;
+   text-align: left;
+}
+
+.flex2 .bloc_one{
+   width: 300px;
+   background-color: #F9F9FE;
+}
+
+.flex2 .bloc_two {
+   width: 300px;
+   background-color: #F9F9FE;
+}
+
+.flex2 .bloc_three {
+   width: 300px;
+   background-color: #F9F9FE;
+}
+.contain1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.flex3{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   background-color: #F9F9FE;
+   font-size: 18px;
+   flex-shrink: 1;
+}
+
+.flex3 .bloc_one {
+   width: 100px;
+   height: 200px;
+   justify-content: center;
+}
+
+.flex3 .bloc_two {
+    width: 1000px;
+   height: 200px;
+   text-align: left;
+   color: #2E72AE;
+   font-size: 18px;
+ }
+
+.flex4 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: orange;
+}
+.flex4 .h1{
+   color: black;
+}
